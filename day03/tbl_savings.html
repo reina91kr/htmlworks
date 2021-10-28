@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align:center;}
+        th, td {padding: 10px;}
+</style>
+<title>표 구조 정의</title>
+</head>
+<body>
+
+<h1>The thead, tbody, and tfoot elements</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+</table>
+<!-- 굳이 thead/tbody/tfoot으로 구분하는 이유는,
+공동 작업하는 사람끼리 명확하게 각 표를 구분하기 편하도록
+새로운 규칙들을 정해나가는 것 -->
+
+</body>
+</html>

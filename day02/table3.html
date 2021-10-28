@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 태그와 스타일 속성</title>
+   <style>
+       table, td{border: 1px solid #ccc;
+    border-collapse:collapse; text-align:center;}
+    
+       table {width: 300px; height:100px;}
+       
+   </style>
+</head>
+<body>
+    <h2>행 합치기</h2>
+   <table>
+       <tr>
+           <td rowspan="2">1</td>
+           <td>2</td>
+           <td>3</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+<!-- rowspan은 행(row)합치기 -->
+<!-- rowspan 실행 후 한개의 td를 지워주지 않으면 열이 추가됨 -->
+        </tr>
+   </table>
+<br>
+   <h2>열 합치기</h2>
+   <table>
+    <tr>
+        <td>1</td>
+        <td >2</td>
+        <td>3</td>
+     </tr>
+     <tr>
+         <td colspan="3">5</td>
+<!-- rowspan은 행(row)합치기 -->
+<!-- rowspan 실행 후 한개의 td를 지워주지 않으면 열이 추가됨 -->
+     </tr>
+</table>
+</body>
+</html>
