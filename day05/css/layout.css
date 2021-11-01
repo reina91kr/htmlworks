@@ -1,0 +1,36 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+
+}
+header{
+    width: 976px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+section{
+    width: 625px;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left;
+
+}
+aside{
+    width: 325px;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: right;
+    background-color:#eee;
+}
+footer{
+    width: 976px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    clear: both;
+}

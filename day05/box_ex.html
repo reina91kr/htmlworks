@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스 크기 속성</title>
+    <style>
+        #headline {
+            width: 1000px;
+            height: 600px;
+            margin: 0 auto;
+            border: 1px solid #ccc ;
+            
+        }
+        h1{
+            width: 300px;
+            height: 100px;
+            margin: 0 auto;
+            background-color: black;
+            color: white;  
+            font-size: 3em;
+            /* 1em = 기본 크기 (16px), 3em = 3배 (48px) */
+            /* px은 고정크기, em은 상대크기 */
+            text-align: center;
+            line-height: 100px;
+            /* line-height: 줄 간격 = 세로로 가운데 넣기 */
+            /* 2em이라고 해도 괜찮고, 2도 괜찮지만 height와 같은 크기를
+            넣어주면 세로 가운데가 됨 */                    
+        }
+    </style>
+</head>
+<body>
+    <div id="headline">
+        <h1>HTML</h1>
+    </div>    
+</body>
+</html>

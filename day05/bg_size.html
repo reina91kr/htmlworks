@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경 이미지 크기</title>
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            border: 1px solid #ccc;
+        }
+        #bg1{
+            background: url(./images/bg5.jpg);
+            background-size: auto;
+        }
+        #bg2{
+            background: url(./images/bg5.jpg) no-repeat;
+            background-size: 200px;
+        }
+        #bg3{
+            background: url(./images/bg5.jpg) no-repeat top right;
+            background-size: 60%;
+        }
+        /* 60%만 채우는 것  */
+        #bg4{
+            background: url(./images/bg5.jpg) no-repeat;
+            background-size: contain;
+        }
+        /* 가로 사이즈 맞춰서 채우기  */
+        #bg5{
+            background: url(./images/bg5.jpg) ;
+            background-size: cover;
+        }
+        /* 꽉 차게 채우기  */
+    </style>
+</head>
+<body>
+    <div id="bg1"></div>
+    <div id="bg2"></div>
+    <div id="bg3"></div>
+    <div id="bg4"></div>
+    <div id="bg5"></div>
+</body>
+</html>

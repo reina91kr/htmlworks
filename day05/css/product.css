@@ -1,0 +1,44 @@
+#container{
+    width: 1000px;
+    margin: 20 auto;
+    border: none;
+}
+div{
+    width: 700px;
+    margin: 0 auto;
+    border: 1px dotted #333;
+    padding: 10px 40px;
+    margin-bottom: 30px;
+}
+#description{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+#description p {
+    line-height: 2em;
+}
+#recipe ol li{
+    line-height: 2em;
+}
+#package{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+table, th, td {
+    border-collapse:collapse;
+    padding: 10px
+}
+table{
+    border: 1px solid black;
+    caption-side: top;
+}
+th, td {
+    border: 1px dotted black;
+    text-align: center;               
+}
+th {
+   background-color: rgb(212, 208, 208)
+}
+caption{
+    margin: 5px
+}
