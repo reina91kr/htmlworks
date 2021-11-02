@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>프런트엔드 개발자 지원서</title>
+    <link rel="stylesheet" href=./css/application.css>
+</head>
+<body>
+    <div id="container">
+        <h1>프런트엔드 개발자 지원서</h1>
+        <p>HTML, CSS, 자바스크립트의 기술을 이해하고 실무 경험이 있는 분을 찾습니다. </p>
+        <hr>
+        <form action ="#" method="post">
+            <div class="personal">
+                <h4>개인 정보</h4>
+                <ul>
+                    <li><label for="name">이름</label> <input type="text" name="name" autofocus placeholder="공백 없이 입력하세요"></li>
+                    <!-- autofocus: 웹 열었을 때 가장 먼저 커서가 이동하게 설정 -->
+                    <li><label for="phone">연락처</label> <input type="text" name="phone"></li>
+                </ul>
+            </div> 
+            <div class="area">
+                <h4>지원 분야</h4>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="area" id="web_pub"> 웹퍼블리싱
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="area" id="app_dev"> 웹 애플리케이션 개발
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="area" id="dev_env"> 개발 환경 개선
+                        </label>
+                    </li>
+                </ul>
+            </div> 
+            <div class="motive">
+                <h4>지원 동기</h4>
+                <p>
+                    <textarea name="motivation" cols="60" rows="5" placeholder="본사 지원 동기를 간략하게 써 주세요."></textarea>
+                </p>    
+            </div>
+            <div class="button">
+                <input type="submit" value="접수하기">
+                <input type="submit" value="취소하기">
+            </div>
+        </form>
+    </div> 
+</body>
+</html>

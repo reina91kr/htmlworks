@@ -1,0 +1,12 @@
+#container{
+    width:600px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+}
+ul{list-style: none;}
+ul li{margin: 15px;}
+.personal label{
+    width: 70px;
+    float: left;
+}

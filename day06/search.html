@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 폼 만들기</title>
+</head>
+<body>
+    <form>
+        <input type="text"> 
+        <!-- 검색창 -->
+        <input type="submit" value="검색">
+        <!-- 검색버튼 / 디폴트는 제출, value="단어" -->
+    </form>
+    <form action="search.php" method="get">
+        <!-- 검색 후 어느 창으로 가야하는지 연결하는 관련 명령어 -->
+        <!-- .php .jsp .asp를 서버페이지라고 부름 
+        Php는 일반용 / jsp 는 기업용 /  -->
+
+        <input type="text" name="kw"> 
+        <input type="submit" value="검색">
+    </form>
+</body>
+</html>
