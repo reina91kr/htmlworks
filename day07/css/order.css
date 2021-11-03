@@ -1,0 +1,30 @@
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+}
+fieldset ul li {
+    list-style: none;
+    margin: 20px;
+}
+label{
+    width: 100px;
+    float: left;
+}
+.button{
+    margin-top: 10px;
+    text-align: center;
+}
+.button input{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.button input:hover{
+    background-color: skyblue;
+    border-color: #fff;
+    color: white;
+}

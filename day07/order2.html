@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문하기 페이지</title>
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+    <div id="container">
+        <h2>레드향 주문하기</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend><b>배송 정보</b></legend>
+                <ul>
+                    <li>
+                        <label for="prod">주문 상품</label>
+                        <input type="text" id="prod" name="prod" value="선물용 3kg" readonly>
+                        <!-- value를 넣게 되면 자동입력되어 표시됨 / readonly는 수정 불가 -->
+                    </li>
+                    <li>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="name" autofocus required>
+                    </li>
+                    <li>
+                        <label for="add">배송주소</label>
+                        <input type="text" id="add" name="add" required>
+                    </li>
+                    <li>
+                        <label for="contanct">연락처</label>
+                        <input type="text" id="contact" name="contact" required
+                                placeholder="하이픈을 빼고 입력해주세요.">
+                    </li>
+                    <li>
+                        <label for="date">배송일 지정</label>
+                        <input type="date" id="date" name="date"><small>(주문일로부터 최소 3일 이후)</small>
+                    </li>
+                    <li>
+                        <label for="memo">메모</label>
+                        <textarea id="memo" cols="40" rows="3"
+                                    placeholder="배송지 요청사항을 입력해주세요."></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+            <div class="button">
+                <input type="submit" value="주문하기">
+                <input type="reset" value="취소하기">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

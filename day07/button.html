@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>
+            <button type="button"onclick="alert('안녕하세요')">확인버튼</button>
+            <input type="button" onclick ="alert('안녕하세요')" value="확인">
+
+            <!-- 두가지 중 편한 것으로 사용하면 된다 -->
+        </p>
+        <p>
+            <button type="button" onclick="window.open('http://www.daum.net', '', 'width = 300, height=400px, top=100, left-20')">새창열기</button>
+        <!-- *매우 중요* button태그는 onclick 속성과 자바스크립트 사용  -->
+        <!-- 새창 속성 : 
+        onclick "window.open('주소'), '', '속성값'"
+        *이 때,  ''는 제목 설정 , 속성값에도 ''을 넣어주어야 함!!-->
+        </p>
+    </form>
+</body>
+</html>

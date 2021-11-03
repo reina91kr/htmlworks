@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;
+box-sizing:border-box;}
+/* 이미지에 맞춰 자동으로 사이즈 키우기 */
+
+#wrap{
+    width: 250px;
+    height: 340px;
+    margin: 10px auto;
+    padding: 20px 30px;
+    background: url("../images/notice.jpg") no-repeat;
+}
+div ul {list-style: none;}
+div ul li {margin: 20px;}
