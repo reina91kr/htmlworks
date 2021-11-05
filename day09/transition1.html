@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition(시간) 속성</title>
+    <style>
+        .tr1 {width: 100px; height: 100px; background-color:blue;
+
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        
+        /* transition-property: width, height;
+        transition-duration: 2s, 4s; */
+
+        /* transition: width, height, 1s, 2s;
+        /*콤마로 구분 - 주의! */
+
+        /* transition: all 2s;  */
+        /* 모든 속성에 동일하게 적용 */
+
+        transition: width, height, transform, 2s, 2s, 2s;
+    }
+        .tr1:hover{
+            width:200px; 
+            height:150px;
+            transform: rotate(-270deg)
+        }
+    </style>
+</head>
+<body>
+    <div class="tr1"></div>
+    
+</body>
+</html>

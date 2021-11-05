@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0}
+#container{width: 960px; margin: 0 auto}
+nav{height: 80px;}
+nav ul{list-style: none; border-bottom: 2px solid #ccc; padding: 20px; text-align: center;}
+nav ul li {display:inline-block; margin: 10px;}
+nav a:link, a:visited{text-decoration: none; color: black;}
+/* 방문했을 때/ 안했을 때의 변화ㅏ  */
+nav a:hover, a:focus {background-color:#222; color: beige; padding: 10px;}
+/* 마우스를 올렸을 때와 탭으로 선택했을 때 변화      */
+nav a:active{background-color:#f00}
+/* 마우스 클릭시 색상 변화 */
